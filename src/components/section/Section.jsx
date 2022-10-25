@@ -15,7 +15,7 @@ const Section = () => {
           Close Add Task Bar
         </button>
       )}
-      {!show && <div>No tasks to show</div>}
+      {!show && <div className="no-task">No tasks to show</div>}
       {show && <Taskbar />}
     </section>
   );
