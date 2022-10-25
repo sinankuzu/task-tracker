@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Taskbar from "./Taskbar";
+import Taskbar from "../taskbar/Taskbar";
 
 const Section = () => {
   const [show, setShow] = useState(false);
