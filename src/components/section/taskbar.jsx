@@ -62,11 +62,10 @@ const Taskbar = () => {
                 <h4>{element.task}</h4>
                 <h3>{element.date}</h3>
               </div>
-              
-                <i onClick={() => remove(element.id)} className="remove">
-                  <FaTrashAlt />
-                </i>
-              
+
+              <i onClick={() => remove(element.id)} className="remove">
+                <FaTrashAlt />
+              </i>
             </div>
           );
         })}
