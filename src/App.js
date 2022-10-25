@@ -6,12 +6,12 @@ function App() {
 
 
   return (
-    <div className='container'>
-  <Header/>
-  
- 
-  <Section/>
-  
+    <div className="container">
+      <div className="center">
+        <Header />
+
+        <Section />
+      </div>
     </div>
   );
 }
