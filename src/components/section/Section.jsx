@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Taskbar from "../taskbar/Taskbar";
+import Tasks from "../tasks/Tasks";
 
 const Section = () => {
   const [show, setShow] = useState(false);
@@ -17,6 +18,7 @@ const Section = () => {
       )}
       {!show && <div className="no-task">No tasks to show</div>}
       {show && <Taskbar />}
+      {!show && <Tasks/>}
     </section>
   );
 };

@@ -1,0 +1,72 @@
+
+label{
+    display: block;
+}
+
+.clean{
+    position:relative;
+    background-color: #79A7D3;
+    width: 400px;
+    height: 60px;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 10px;
+    margin: 0;
+    animation: shake 0.5s;
+}
+
+
+.line-through{
+   text-decoration: line-through;
+   position: relative;
+   background-color: #6883BC;
+   width: 400px;
+    height: 60px;
+    padding-top: 10px;
+      text-align: left;
+    padding-left: 10px;
+animation: shake 0.5s;
+
+}
+
+div{
+    margin-top:10px;
+}
+.remove{
+    position:relative;
+    left: 180px;
+    bottom: 40px;
+  
+    
+   
+    
+    
+}
+
+#date, #task{
+    max-width: 250px;
+    display: block;
+    width:100%;
+    
+}
+
+form{
+    box-sizing: border-box;
+    display: grid;
+    justify-items: center;
+}
+
+h3{
+    color:white;
+}
+
+label{
+    margin:10px 0;
+}
+
+
+
+.my-button{
+margin: 10px 0;
+}
+
