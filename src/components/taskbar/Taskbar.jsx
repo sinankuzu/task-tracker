@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Taskbar.css";
+import "./Taskbar.css"
 import Data from "../../Data";
 import { FaTrashAlt } from "react-icons/fa";
 
